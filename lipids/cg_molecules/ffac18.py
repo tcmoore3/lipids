@@ -11,12 +11,12 @@ class FFAC18(mb.Compound):
         xx = list(self.particles())
         mb.coordinate_transform.z_axis_transform(self,
                 new_origin=xx[6], point_on_z_axis=xx[0])
-        masses = [0.403639,
+        self.masses = [0.403639,
                     0.584458,
                     0.584458,
                     0.584458,
                     0.584458,
                     0.584458,
                     0.625247]
-        self.mass = np.sum(masses)
+        self.mass = np.sum(self.masses)
         self.spin(np.pi, [1, 0, 0])

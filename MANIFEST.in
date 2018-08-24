@@ -1,0 +1,3 @@
+include lipids/cg_molecules/*.*
+include lipids/*.*
+include *.*

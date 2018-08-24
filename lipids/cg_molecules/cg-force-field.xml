@@ -10,6 +10,10 @@
      desc="oh1 bead"/>
  <Type name="oh2" class="oh2" element="_oh2" mass="0.236214" def="[_oh2]" 
      desc="oh2 bead"/>
+ <Type name="oh3" class="oh3" element="_oh3" mass="0.236214" def="[_oh3]" 
+     desc="oh3 bead"/>
+ <Type name="oh4" class="oh4" element="_oh4" mass="0.236214" def="[_oh4]" 
+     desc="oh4 bead"/>
  <Type name="head" class="head" element="_head" mass="0.625247" def="[_head]" 
      desc="ffa head bead"/>
  <Type name="water" class="water" element="_water" mass="1.0" def="[_water]" 
@@ -49,6 +53,8 @@
   <Bond class1="ring3" class2="chme" length="17" k="17"/>
   <Bond class1="ring4" class2="ctail" length="18" k="18"/>
   <Bond class1="ctail" class2="cterm" length="19" k="19"/>
+  <Bond class1="tail" class2="oh3" length="20" k="20"/>
+  <Bond class1="tail" class2="oh4" length="21" k="21"/>
  </HarmonicBondForce> 
 
  <HarmonicAngleForce>
@@ -86,5 +92,9 @@
 <Angle class1="ring1" class2="ring4" class3="ctail" angle="32" k="32"/>
 <Angle class1="ring3" class2="ring4" class3="ctail" angle="33" k="33"/>
 <Angle class1="ring4" class2="ctail" class3="cterm" angle="34" k="34"/>
+<Angle class1="mhead2" class2="tail" class3="oh3" angle="35" k="35"/>
+<Angle class1="tail" class2="tail" class3="oh3" angle="36" k="36"/>
+<Angle class1="tail" class2="tail" class3="oh4" angle="37" k="37"/>
+<Angle class1="amide" class2="tail" class3="oh4" angle="38" k="38"/>
  </HarmonicAngleForce>
 </ForceField>

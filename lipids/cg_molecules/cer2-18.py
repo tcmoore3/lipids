@@ -1,19 +1,19 @@
 import mbuild as mb
 import numpy as np
 
-class ECer3(mb.Compound):
+class Cer2_18(mb.Compound):
     def __init__(self):
-        """Returns a CG uCER3 with the head-to-tail vector pointing in -z.
+        """Returns a CG uCER2 with the head-to-tail vector pointing in -z.
         """
-        super(ECer3, self).__init__()
-        mb.load('ecer3.hoomdxml', compound=self, relative_to_module=self.__module__)
+        super(Cer2_18, self).__init__()
+        mb.load('cer2-18.hoomdxml', compound=self, relative_to_module=self.__module__)
         self.periodicity = [0, 0, 0]
         xx = list(self.particles())
         mb.coordinate_transform.z_axis_transform(self,
                 new_origin=xx[9], point_on_z_axis=xx[14])
         self.translate([-self.center[0], -self.center[1], 0])  # center in xy plane
-        masses = [0.403639, 0.584458, 0.584458,
+        self.masses = [0.403639, 0.584458, 0.584458, 0.584458,
                   0.584458, 0.584458, 0.597575, 0.556458, 0.556458, 0.584458,
-                  0.584458, 0.584458, 0.598458, 0.236214, 0.236214, 0.236214]
-        self.mass = np.sum(masses)
+                  0.584458, 0.584458, 0.598458, 0.236214, 0.236214]
+        self.mass = np.sum(self.masses)
         self.rotate(np.pi, [1, 0, 0])

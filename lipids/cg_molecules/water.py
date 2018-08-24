@@ -8,4 +8,5 @@ class Water(mb.Compound):
         super(Water, self).__init__()
         mb.load('water.hoomdxml', compound=self, relative_to_module=self.__module__)
         self.periodicity = [0, 0, 0]
+        self.masses = [1.0]
         self.mass = 1.0

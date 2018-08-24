@@ -8,6 +8,7 @@ setup(
     author='Timothy C. Moore and Parashara Shamaprasad',
     author_email='p.shama@vanderbilt.edu',
     packages=find_packages(),
+    include_package_data=True,
     url='http://github.com/uppittu11/lipids',
     description='My lipid molecules for building lipid systems.',
     long_description=open('README.md').read(),
