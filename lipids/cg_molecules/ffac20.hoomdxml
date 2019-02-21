@@ -2,7 +2,7 @@
 <hoomd_xml version="1.4">
 <configuration time_step="0" natoms="8">
 <type num="8">
-_tail
+_ter2    
 _tail
 _tail
 _tail
@@ -12,7 +12,7 @@ _tail
 _head
 </type>
 <mass num="8">
-0.403639
+0.208639    
 0.584458
 0.584458
 0.584458

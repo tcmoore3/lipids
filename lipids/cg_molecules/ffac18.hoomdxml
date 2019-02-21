@@ -2,7 +2,7 @@
 <hoomd_xml version="1.4">
 <configuration time_step="0" natoms="7">
 <type num="7">
-_tail
+_ter2
 _tail
 _tail
 _tail
