@@ -94,6 +94,7 @@
   <Angle class1="chead" class2="ring1" class3="ring4" angle="15" k="15"/>
   <Angle class1="ring2" class2="ring1" class3="ring3" angle="16" k="16"/>
   <Angle class1="ring2" class2="ring1" class3="ring4" angle="17" k="17"/>
+  <Angle class1="ring3" class2="ring1" class3="ring4" angle="17" k="17"/>
   <Angle class1="ring3" class2="ring2" class3="ring4" angle="18" k="18"/>
   <Angle class1="chead" class2="ring2" class3="ring1" angle="19" k="19"/>
   <Angle class1="chead" class2="ring2" class3="ring3" angle="20" k="20"/>
