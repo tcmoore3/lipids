@@ -44,6 +44,8 @@ lipids/cg_molecules/ffac22.hoomdxml
 lipids/cg_molecules/ffac22.py
 lipids/cg_molecules/ffac24.hoomdxml
 lipids/cg_molecules/ffac24.py
+lipids/cg_molecules/ffac27.hoomdxml
+lipids/cg_molecules/ffac27.py
 lipids/cg_molecules/scale.py
 lipids/cg_molecules/water.hoomdxml
 lipids/cg_molecules/water.py

@@ -1,5 +1,5 @@
 <?xml version ="1.0" encoding ="UTF-8" ?>
-<hoomd_xml version="1.4">
+<hoomd_xml version="1.7">
 <configuration time_step="0" natoms="14">
 <type num="14">
 _tail
