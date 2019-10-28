@@ -74,6 +74,9 @@
 
  <HarmonicAngleForce>
   <Angle class1="tail" class2="tail" class3="tail" angle="1" k="1"/>
+  <Angle class1="taild" class2="taild" class3="tail" angle="1" k="1"/>
+  <Angle class1="taild" class2="tail" class3="tail" angle="1" k="1"/>
+  <Angle class1="taild" class2="tail" class3="ter2" angle="1" k="1"/>
   <Angle class1="ter2" class2="tail" class3="tail" angle="1" k="1"/>
   <Angle class1="amide" class2="tail" class3="tail" angle="2" k="2"/>
   <Angle class1="tail" class2="amide" class3="mhead2" angle="3" k="3"/>
