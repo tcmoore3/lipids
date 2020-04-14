@@ -5,7 +5,7 @@ class Cer5_24(mb.Compound):
     def __init__(self):
         """Returns a CG uCER5 with the head-to-tail vector pointing in -z.
         """
-        super(Cer6_24, self).__init__()
+        super(Cer5_24, self).__init__()
         mb.load('cer5-24.hoomdxml', compound=self, relative_to_module=self.__module__)
         self.periodicity = [0, 0, 0]
         xx = list(self.particles())

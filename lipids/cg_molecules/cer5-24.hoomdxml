@@ -69,7 +69,7 @@ tail-tail 3 4
 tail-tail 4 5
 tail-tail 5 6
 tail-tail 6 7
-tail-oh4 7 18
+tail-oh4 7 17
 amide-tail 7 8
 amide-mhead2 8 9
 mhead2-tail 9 10
@@ -96,8 +96,8 @@ tail-tail-tail 11 12 13
 tail-tail-tail 12 13 14
 amide-mhead2-oh1 8 9 15
 amide-mhead2-oh2 8 9 16
-tail-tail-oh4 6 7 18
-amide-tail-oh4 8 7 18
+tail-tail-oh4 6 7 17
+amide-tail-oh4 8 7 17
 oh1-mhead2-tail 10 9 15
 oh2-mhead2-tail 10 9 16
 oh1-mhead2-oh2 15 9 16
